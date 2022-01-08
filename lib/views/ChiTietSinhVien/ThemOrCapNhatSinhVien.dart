@@ -91,7 +91,7 @@ class _ThemOrCapNhatState extends State<ThemOrCapNhat>
             menuenabled: true,
             notificationenabled: false,
             title: widget.sinhvien != null
-                ? "Cập nhật sinh viên"
+                ? "Cập nhật bé"
                 : "Thêm mới sinh viên",
             ontap: () {
               _scaffoldKey.currentState.openDrawer();
